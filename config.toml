@@ -1,7 +1,5 @@
-baseURL = "https://gohugo.io/"
-title = "Hugo Themes"
-author = "Steve Francia"
-copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
+baseURL = "https://blog.safenetwork.org/"
+title = "SAFE Network Blog"
 paginate = 3
 languageCode = "en"
 DefaultContentLanguage = "en"
@@ -11,33 +9,28 @@ footnoteReturnLinkContents = "^"
 theme = "casper3"
 
 [params]
-  facebook = "https://facebook.com"
-  twitter = "https://twitter.com"
-  github = "https://github.com/jonathanjanssens"
-  description = "Just a demo site for the Casper3 theme ported to Hugo"
+  facebook = "https://www.facebook.com/safenetworktech"
+  twitter = "https://twitter.com/safenetworktech"
+  reddit = "https://www.reddit.com/r/safenetwork/"
+  description = "Blog posts written by members of the SAFE Network community"
   mainSections = ["post"]
 
 [menu]
   [[menu.main]]
     identifier = "about"
     name = "About"
-    url = "/about/"
+    url = "https://safenetwork.tech/"
     weight = 10
   [[menu.main]]
-    identifier = "image-credit"
-    name = "Image Credit"
-    url = "/image-credit/"
+    identifier = "forum"
+    name = "Community Forum"
+    url = "https://safenetforum.org/"
     weight = 20
   [[menu.main]]
-    identifier = "github-repo-theme"
-    name = "Get Theme on Github"
-    url = "https://github.com/jonathanjanssens/hugo-casper3"
+    identifier = "github-repo"
+    name = "Contribute on GitHub"
+    url = "https://github.com/safenetwork/blog.safenetwork.org"
     weight = 30
-  [[menu.main]]
-    identifier = "author"
-    name = "Author Homepage"
-    url = "https://jonathanjanssens.com"
-    weight = 40
 
 [taxonomies]
 category = "categories"
@@ -46,17 +39,9 @@ series = "series"
 
 [privacy]
 
-  [privacy.vimeo]
-    disabled = false
-    simple = true
-
   [privacy.twitter]
     disabled = false
     enableDNT = true
-    simple = true
-
-  [privacy.instagram]
-    disabled = false
     simple = true
 
   [privacy.youtube]
@@ -65,9 +50,5 @@ series = "series"
 
 [services]
 
-  [services.instagram]
-    disableInlineCSS = true
-
   [services.twitter]
     disableInlineCSS = true
-

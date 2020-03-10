@@ -1,22 +1,26 @@
-# hugoBasicExample
+# SAFE Network Blog
 
-This repository offers an example site for [Hugo](https://gohugo.io/) and also it provides the default content for demos hosted on the [Hugo Themes Showcase](https://themes.gohugo.io/).
+> This repository contains the source files for [blog.safenetwork.org](https://blog.safenetwork.org).
 
-# Using
+The SAFE Network is a secure, decentralized P2P network being developed by [MaidSafe](https://github.com/maidsafe).
 
-1. [Install Hugo](https://gohugo.io/overview/installing/)
-2. Clone this repository
-```bash
-git clone https://github.com/gohugoio/hugoBasicExample.git
-cd hugoBasicExample
-```
-3. Clone the repository you want to test. If you want to test all Hugo Themes then follow the instructions provided [here](https://github.com/gohugoio/hugoThemes#installing-all-themes)
-4. Run Hugo and select the theme of your choosing
-```bash
-hugo server -t YOURTHEME
-```
-5. Under `/content/` this repository contains the following:
-- A section called `/post/` with sample markdown content
-- A headless bundle called `homepage` that you may want to use for single page applications. You can find instructions about headless bundles over [here](https://gohugo.io/content-management/page-bundles/#headless-bundle)
-- An `about.md` that is intended to provide the `/about/` page for a theme demo
-6. If you intend to build a theme that does not fit in the content structure provided in this repository, then you are still more than welcome to submit it for review at the [Hugo Themes](https://github.com/gohugoio/hugoThemes/issues) respository
+## Contributing
+
+By contributing to this website, you dedicate your work to the public domain and relinquish any copyright claims under the terms of the [CC0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
+
+### Submitting a pull request
+
+- [Fork this GitHub repository](https://github.com/safenetwork/blog.safenetwork.org/fork) and clone your fork locally on your computer.
+- Install [Hugo](https://gohugo.io/getting-started/installing/)
+- Test out your changes with the command `hugo server`
+- When you're happy, push your changes up and open a pull request.
+
+If you're not sure how to open a pull request, feel free to [open an issue](https://github.com/safenetwork/blog.safenetwork.org/issues/new) instead.
+
+## Credits
+
+This website is based on a [Hugo](https://gohugo.io/) theme called [casper3](https://github.com/jonathanjanssens/hugo-casper3) (which itself is a port of Ghost's [Casper](https://github.com/TryGhost/Casper) theme).
+
+## Public domain
+
+Unless otherwise noted, all content on this website is [dedicated to the public domain](https://github.com/safenetwork/blog.safenetwork.org/blob/master/LICENSE) under the [CC0 Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
