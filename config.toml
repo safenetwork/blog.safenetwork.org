@@ -19,7 +19,7 @@ theme = "casper3"
   [[menu.main]]
     identifier = "about"
     name = "About"
-    url = "https://safenetwork.tech/"
+    url = "https://safenetwork.org/"
     weight = 10
   [[menu.main]]
     identifier = "forum"
