@@ -22,15 +22,10 @@ theme = "casper3"
     url = "https://safenetwork.org/"
     weight = 10
   [[menu.main]]
-    identifier = "forum"
-    name = "Community Forum"
-    url = "https://safenetforum.org/"
-    weight = 20
-  [[menu.main]]
     identifier = "contribute"
     name = "Contribute"
     url = "/contributing/"
-    weight = 30
+    weight = 20
 
 [taxonomies]
 category = "categories"
