@@ -27,9 +27,9 @@ theme = "casper3"
     url = "https://safenetforum.org/"
     weight = 20
   [[menu.main]]
-    identifier = "github-repo"
-    name = "Contribute on GitHub"
-    url = "https://github.com/safenetwork/blog.safenetwork.org"
+    identifier = "contribute"
+    name = "Contribute"
+    url = "/contributing/"
     weight = 30
 
 [taxonomies]
